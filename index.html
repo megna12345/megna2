@@ -1,0 +1,43 @@
+<table style="font-family:Verdana, sans-serif;" cellpadding="0" cellspacing="0" class="ng-scope">
+    <tbody>
+     <tr>
+      <td style="width:140px; padding:0; text-align:center; vertical-align:middle;" valign="middle" width="140">
+       <!-- ngIf: showField('photo') --><img ng-if="showField('photo')" ng-src="https://raw.githubusercontent.com/megna12345/sadiya/main/s-l1600.jpg" alt="photograph" width="100" height="100" border="0" style="width:100px; height:100px; border-radius:50px; border:0;" class="ng-scope" src="https://raw.githubusercontent.com/megna12345/sadiya/main/s-l1600.jpg"><!-- end ngIf: showField('photo') -->
+      </td>
+      <td style="border-bottom:2px solid; border-bottom-color:#102eef; padding:0; vertical-align:top;" valign="top">	
+       <table style="font-family:Verdana, sans-serif;" cellpadding="0" cellspacing="0">
+        <tbody>
+         <tr>
+          <td style="font-family:Verdana, sans-serif; color:#ed5a24; padding-bottom:6px; padding-top:0; padding-left:0; padding-right:0; vertical-align:top;" valign="top">
+           <strong><span style="font-family:Verdana, sans-serif; color:#102eef; font-size:14pt; font-style:italic;" class="ng-binding">megna khatun</span></strong><br>
+           <!-- ngIf: showField('title') --><span style="font-family:Verdana, sans-serif; color:#102eef; font-size:10pt;" ng-if="showField('title')" class="ng-binding ng-scope">Wed Designer</span><!-- end ngIf: showField('title') -->	
+          </td>	    
+         </tr>	    
+         <!-- ngIf: isAnyFieldEntered('email, mobile, phone') --><tr ng-if="isAnyFieldEntered('email, mobile, phone')" class="ng-scope">     
+          <td style="font-family:Verdana, sans-serif; color:#444444; padding-bottom:6px; padding-top:0; padding-left:0; padding-right:0; line-height:18px; vertical-align:top;" valign="top">    
+           <!-- ngIf: showField('email') --><span style="font-family:Verdana, sans-serif; color:#f80cdc; font-size:10pt;" ng-if="showField('email')" class="ng-binding ng-scope">email: meghnamkhayun@gmil.com<br> </span><!-- end ngIf: showField('email') -->				
+           <!-- ngIf: showField('phone') --><span style="font-family:Verdana, sans-serif; color:#f80cdc; font-size:10pt;" ng-if="showField('phone')" class="ng-binding ng-scope">phone: 67584312<!-- ngIf: showField('mobile') --><span ng-if="showField('mobile')" style="font-family:Verdana, sans-serif; font-size:10pt;" class="ng-scope"> | </span><!-- end ngIf: showField('mobile') --></span><!-- end ngIf: showField('phone') --> 
+           <!-- ngIf: showField('mobile') --><span style="font-family:Verdana, sans-serif; color:#f80cdc; font-size:10pt;" ng-if="showField('mobile')" class="ng-binding ng-scope">mobile: 1235698</span><!-- end ngIf: showField('mobile') --> 
+          </td>
+         </tr><!-- end ngIf: isAnyFieldEntered('email, mobile, phone') -->
+         <!-- ngIf: isAnyFieldEntered('company, address1, address2') --><tr ng-if="isAnyFieldEntered('company, address1, address2')" class="ng-scope">     
+          <td style="font-family:Verdana, sans-serif; color:#444444;  padding-bottom:6px; padding-top:0; padding-left:0; padding-right:0; line-height:18px; vertical-align:top;" valign="top">    
+           <!-- ngIf: showField('company') --><span style="font-family:Verdana, sans-serif; color:#f80cdc; font-size:10pt;" ng-if="showField('company')" class="ng-binding ng-scope">Skk Company, </span><!-- end ngIf: showField('company') --> 
+           <!-- ngIf: showField('address1') --><span style="font-family:Verdana, sans-serif; color:#f80cdc; font-size:10pt;" ng-if="showField('address1')" class="ng-binding ng-scope">bondor bazar,</span><!-- end ngIf: showField('address1') --> 
+           <!-- ngIf: showField('address2') --><span style="font-family:Verdana, sans-serif; color:#f80cdc; font-size:10pt;" ng-if="showField('address2')" class="ng-binding ng-scope">bonbor bazar,singar</span><!-- end ngIf: showField('address2') -->      
+          </td>
+         </tr><!-- end ngIf: isAnyFieldEntered('company, address1, address2') -->
+        </tbody>
+       </table> 								
+      </td>	
+     </tr>
+     <tr>
+      <td style="font-family:Verdana, sans-serif; width:140px; padding-top:6px; padding-left:0; padding-right:0; text-align:center; vertical-align:middle;" valign="middle" width="140">	
+       <!-- ngIf: showField('facebookURL') --><span ng-if="showField('facebookURL')" class="ng-scope"><a href="https://www.facebook.com/MyCompany" target="_blank" rel="noopener"><img border="0" width="16" ng-src="https://www.mail-signatures.com/signature-generator/img/templates/photo2/fb.png" alt="facebook icon" style="border:0; height:16px; width:16px" src="https://www.mail-signatures.com/signature-generator/img/templates/photo2/fb.png"></a>&nbsp;</span><!-- end ngIf: showField('facebookURL') --><!-- ngIf: showField('twitterURL') --><!-- ngIf: showField('youtubeURL') --><!-- ngIf: showField('linkedinURL') --><span ng-if="showField('linkedinURL')" class="ng-scope"><a href="https://www.linkedin.com/company/mycompany404" target="_blank" rel="noopener"><img border="0" width="16" ng-src="https://www.mail-signatures.com/signature-generator/img/templates/photo2/ln.png" alt="linkedin icon" style="border:0; height:16px; width:16px" src="https://www.mail-signatures.com/signature-generator/img/templates/photo2/ln.png"></a>&nbsp;</span><!-- end ngIf: showField('linkedinURL') --><!-- ngIf: showField('instagramURL') --><span ng-if="showField('instagramURL')" class="ng-scope"><a href="https://www.instagram.com/mycompany404/" target="_blank" rel="noopener"><img border="0" width="16" ng-src="https://www.mail-signatures.com/signature-generator/img/templates/photo2/it.png" alt="instagram icon" style="border:0; height:16px; width:16px" src="https://www.mail-signatures.com/signature-generator/img/templates/photo2/it.png"></a>&nbsp;</span><!-- end ngIf: showField('instagramURL') --><!-- ngIf: showField('pinterestURL') -->
+      </td>
+      <td style="padding-top:6px; padding-bottom:0; padding-left:0; padding-right:0; vertical-align:middle;" valign="middle">
+       <a href="http://www.meghnakhatun.tk" target="_blank" rel="noopener" style=" text-decoration:none;"><span style="color:#ed5a24; font-family:Verdana, sans-serif; font-size:10pt"><span style="color:#4e1cd9; font-family:Verdana, sans-serif; font-size:10pt" class="ng-binding">www.meghnakhatun.tk</span></span></a>
+      </td>
+     </tr>
+    </tbody>
+   </table>
